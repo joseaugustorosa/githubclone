@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cabecalho{
+  background-color: #010409;
+  height: 65px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navBar {
+  background-color: #010409;
+  height: 40px;
+  border-bottom: 1px solid rgba(133, 128, 128, 0.438);
+}
+.main{
+  height: 100vh;
+  
+  background-color: #161b22;
+}
+.itemNavbar{
+  display: inline-block;
   color: white;
+  padding: 5px;
+  margin-left: 5px;
+  
+  font-size: 14px;
 }
-
-.App-link {
-  color: #61dafb;
+.itemNavbar:hover{
+  background-color: #161b22;
+  border-radius: 5px;
 }
+.navBar ul{
+  margin-left: 10px;
+}
+.itemNavBarcOUNTER{
+  background-color: #3f4042;
+  font-size: 13px;
+ 
+  padding: 2px 5px ;
+  margin: 4px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 10px;
+}
+.cabecalho{
+  display: flex;
+  align-items: center;
+ 
+}
+.logohub{
+  height: 50%;
+}
+.nomeHeader{
+  color: white;
+  margin: 11px;
+  padding: 6px 8px;
+  font-size: 14px;
+}
+.nomeHeader:hover{
+  background-color: #3f40429c;
+  border-radius: 5px;
+}
+.toolbarHeader{
+  color: white;
+  margin: 0px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 5px;
+  padding: 7px 5px;
+  height: 32px;
+  width:30px;
+}
+.personalHeader{
+  margin-right: 15px;
+ float: right;
+  height: 100%;
+  right: 0;
+  border-radius: 50%;
+}
+.paipersonalHeader{
+ width: 100%;
+  height:32px;
 }
